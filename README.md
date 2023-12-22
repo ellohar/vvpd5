@@ -12,8 +12,9 @@ The **Merge Sort**  uses a recursive algorithm to achieve its results. The divid
 - [x] Thus, whenever data stability is a priority, consider using merge sort
 ---
 ### **Let's see how does the algorithm look like in python**
-```
+```python
 def merge_two_arrays(list_1, list_2):
+    """returns a sorted array obtained by merging two already sorted arrays"""
     res = []
     while len(list_1) != 0 and len(list_2) != 0:
         res.append(min(list_1[0], list_2[0]))
@@ -28,6 +29,7 @@ def merge_two_arrays(list_1, list_2):
     return res
     
 def merge_sort(array):
+    """sorts the input array in ascending order using merge method"""
     if len(array) == 1:
         return array
     left = merge_sort(array[:(len(array)//2)])

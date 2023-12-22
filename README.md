@@ -1,14 +1,14 @@
 # vvpd5
 ## merge sort
 The **Merge Sort**  uses a recursive algorithm to achieve its results. The divide-and-conquer algorithm breaks down a big problem into smaller, more manageable pieces that look similar to the initial problem. It then solves these subproblems recursively and puts their solutions together to solve the original problem.
-### **advatages of merge sorting:**
+### **Advatages of merge sorting:**
 + *merge sort can efficiently sort a list in $`O(n*log(n))`$ time;*
 + *merge sort can be used with linked lists without taking up any more space;*
 + *merge sort algorithm is used to count the number of inversions in the list;*
 + *merge sort is employed in external sorting*
 ### Here you can see how does the merge sort algorithm work
 ![merge sort](https://cdn.educba.com/academy/wp-content/uploads/2021/06/7.png)
-### what is the use of merge sort?
+### What is the use of merge sort?
 - [x] Thus, whenever data stability is a priority, consider using merge sort
 ---
 ### **Let's see how does the algorithm look like in python**
